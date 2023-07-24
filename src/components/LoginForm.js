@@ -49,8 +49,8 @@ const LoginForm = () => {
           <Card.Title className="text-center">Login</Card.Title>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="email">
-              <Form.Label>username</Form.Label>
-              <Form.Control type="username" placeholder="Masukkan username" value={username} onChange={(e) => setUsername(e.target.value)} />
+              <Form.Label>Email</Form.Label>
+              <Form.Control type="email" placeholder="Masukkan email" value={username} onChange={(e) => setUsername(e.target.value)} />
             </Form.Group>
             <Form.Group controlId="password">
               <Form.Label>Password</Form.Label>

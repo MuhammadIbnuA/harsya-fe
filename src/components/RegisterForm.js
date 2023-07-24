@@ -54,8 +54,8 @@ const RegisterForm = () => {
           <Card.Title className="text-center">Registrasi</Card.Title>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="name">
-              <Form.Label>Username</Form.Label>
-              <Form.Control type="email" placeholder="Masukkan nama" value={username} onChange={(e) => setUsername(e.target.value)} />
+              <Form.Label>Email</Form.Label>
+              <Form.Control type="email" placeholder="Masukkan Email" value={username} onChange={(e) => setUsername(e.target.value)} />
             </Form.Group>
             <Form.Group controlId="password">
               <Form.Label>Password</Form.Label>
